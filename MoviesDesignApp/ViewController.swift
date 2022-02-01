@@ -77,7 +77,7 @@ extension ViewController : UICollectionViewDelegate,UICollectionViewDataSource,M
         cell.movieFee.text = inComminIndex.MoviesFee!
         
         cell.layer.borderColor = UIColor.lightGray.cgColor
-        cell.layer.borderWidth = 0.5
+        cell.layer.borderWidth = 0.7
         
         return cell
     }
